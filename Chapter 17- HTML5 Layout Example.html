@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Layout</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        header, footer, nav, article, aside, section {
+            display: block; /*To enable HTML5 elements in old browsers*/
+            padding: 10px;
+        }
+          header {
+            background-color: #f0f0f0;
+        }
+         nav {
+            background-color: #e0e0e0;
+             margin-top: 20px;
+             margin-bottom: 20px;
+        }
+        article {
+            background-color: #f8f8f8;
+            margin-bottom: 20px;
+        }
+        aside {
+           background-color: #e8e8e8;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #d0d0d0;
+             margin-top: 20px;
+        }
+     </style>
+      <!--[if lt IE 9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+
+    <header>
+        <h1>Site Header</h1>
+    </header>
+    <nav>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+          <header>
+            <h2>Article Title</h2>
+          </header>
+        <p>This is the main content of the article.</p>
+          <footer>
+            <p>Article footer with author and date</p>
+          </footer>
+      </article>
+      <section>
+          <h2>Section Heading</h2>
+           <article>
+            <header>
+               <h3>Sub Article Title</h3>
+            </header>
+               <p>This article is in a section</p>
+             </article>
+      </section>
+
+    </main>
+    <aside>
+        <h2>Sidebar</h2>
+        <p>This is content in the sidebar</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
