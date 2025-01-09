@@ -1,0 +1,22 @@
+/* styles.css - External CSS file */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: red;
+}
+
+.main-text {
+    font-size: 2em;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.special-text {
+  font-style: italic;
+}
