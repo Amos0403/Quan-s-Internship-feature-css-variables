@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text in CSS</title>
+    <style>
+        h1 {
+            font-family: "Courier New", monospace;
+            text-align: center;
+            text-shadow: 2px 2px 4px #888;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+           text-indent: 1em;
+        }
+        .special-text {
+            font-style: italic;
+           text-transform: uppercase;
+        }
+       .letter-space {
+         letter-spacing: 0.3em;
+       }
+       .word-space {
+           word-spacing: 1em;
+        }
+
+        a {
+           text-decoration: none;
+        }
+      a:hover {
+        text-decoration: underline;
+        color: red;
+       }
+
+     p::first-letter {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: green;
+       }
+    </style>
+</head>
+<body>
+    <h1>Styling Text with CSS</h1>
+    <p>This paragraph demonstrates various text styling properties.</p>
+     <p class="special-text">This is some italic text that has been transformed into uppercase.</p>
+      <p class="letter-space">This text demonstrates the use of the `letter-spacing` property. </p>
+       <p class="word-space">This text demonstrates the use of the `word-spacing` property. </p>
+    <a href="#">This is a link, that has no underline</a>
+</body>
+</html>
