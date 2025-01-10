@@ -1,90 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Layout Example</title>
-    <style>
-        body {
-            width: 90%; /*Liquid Layout*/
-            margin: 0 auto;
+  <title>Layout Example</title>
+  <style>
+    body {
+      width: 90%;
+      /*Liquid Layout*/
+      margin: 0 auto;
 
-        }
-         #header, #footer {
-            background-color: #f0f0f0;
-             margin: 1%; /* Adds margin */
-             padding: 10px;
-        }
-        .column {
-           width: 31.3%; /* Use percentage for liquid layouts */
-            float: left; /* Float columns next to each other */
-            margin: 1%; /* Adds margin */
+    }
 
-        }
+    #header,
+    #footer {
+      background-color: #f0f0f0;
+      margin: 1%;
+      /* Adds margin */
+      padding: 10px;
+    }
 
-         #container {
-             width: 960px; /*Fixed Width Layout*/
-             margin: 0 auto;
-         }
+    .column {
+      width: 31.3%;
+      /* Use percentage for liquid layouts */
+      float: left;
+      /* Float columns next to each other */
+      margin: 1%;
+      /* Adds margin */
 
-         #container .grid { /*Grid System*/
-             float: left;
-             margin: 10px;
-            padding: 10px;
-         }
+    }
 
-        .grid_4 {
-           width: 300px;
-        }
-        .grid_12 {
-            width: 940px;
-        }
+    #container {
+      width: 960px;
+      /*Fixed Width Layout*/
+      margin: 0 auto;
+    }
+
+    #container .grid {
+      /*Grid System*/
+      float: left;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .grid_4 {
+      width: 300px;
+    }
+
+    .grid_12 {
+      width: 940px;
+    }
 
 
-        .clearfix:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-    </style>
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
 </head>
+
 <body>
 
-    <div id="container" class="clearfix"> <!--Fixed Width Layout -->
-        <div id="header"  class="grid_12"> <!--Grid System-->
-            <h1>Header</h1>
-        </div>
-        <div class="grid grid_4"> <!--Grid System-->
-            <p>Column 1 - fixed width</p>
-         </div>
-          <div class="grid grid_4"> <!--Grid System-->
-            <p>Column 2 - fixed width</p>
-         </div>
-          <div class="grid grid_4"> <!--Grid System-->
-            <p>Column 3 - fixed width</p>
-         </div>
-
-         <div id="footer" class="grid_12"> <!--Grid System-->
-             <p>Footer</p>
-         </div>
+  <div id="container" class="clearfix"> <!--Fixed Width Layout -->
+    <div id="header" class="grid_12"> <!--Grid System-->
+      <h1>Header</h1>
+    </div>
+    <div class="grid grid_4"> <!--Grid System-->
+      <p>Column 1 - fixed width</p>
+    </div>
+    <div class="grid grid_4"> <!--Grid System-->
+      <p>Column 2 - fixed width</p>
+    </div>
+    <div class="grid grid_4"> <!--Grid System-->
+      <p>Column 3 - fixed width</p>
     </div>
 
-    <div id="header">
-       <h1>Header</h1>
+    <div id="footer" class="grid_12"> <!--Grid System-->
+      <p>Footer</p>
     </div>
+  </div>
 
-    <div class="column">
-        <p>Column 1</p>
-    </div>
-    <div class="column">
-        <p>Column 2</p>
-    </div>
-      <div class="column">
-        <p>Column 3</p>
-    </div>
+  <div id="header2">
+    <h1>Header</h1>
+  </div>
 
-   <div id="footer">
-        <p>Footer</p>
-   </div>
+  <div class="column">
+    <p>Column 1</p>
+  </div>
+  <div class="column">
+    <p>Column 2</p>
+  </div>
+  <div class="column">
+    <p>Column 3</p>
+  </div>
+
+  <div id="footer2">
+    <p>Footer</p>
+  </div>
 
 </body>
+
 </html>
