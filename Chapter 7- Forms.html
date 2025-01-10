@@ -1,21 +1,23 @@
+<!DOCTYPE html>
 <html>
 <form action="/submit" method="post">
-    <fieldset>
-      <legend>User Information</legend>
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required><br>
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="email" required><br>
-      <label for="options">Choose an option:</label>
-       <select name="options" id="options">
-          <option value="1">Option 1</option>
-          <option value="2">Option 2</option>
-          <option value="3">Option 3</option>
-        </select><br>
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message"></textarea><br>
-       <input type="hidden" name="form_id" value="12345">
-       <button type="submit">Submit</button>
-    </fieldset>
-  </form>
+  <fieldset>
+    <legend>User Information</legend>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required><br>
+    <label for="options">Choose an option:</label>
+    <select name="options" id="options">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message"></textarea><br>
+    <input type="hidden" name="form_id" value="12345">
+    <button type="submit">Submit</button>
+  </fieldset>
+</form>
+
 </html>
