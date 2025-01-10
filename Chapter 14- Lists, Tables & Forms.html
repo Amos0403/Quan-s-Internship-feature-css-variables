@@ -1,81 +1,100 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Lists, Tables, and Forms Example</title>
-    <style>
-        ul.custom-list {
-            list-style-type: square; /* Change bullet style */
-             list-style-image: url('images/star.png'); /* Use an image as a marker */
-            list-style-position: inside; /* Position the markers inside the box */
+  <title>Lists, Tables, and Forms Example</title>
+  <style>
+    ul.custom-list {
+      list-style-type: square;
+      /* Change bullet style */
+      list-style-image: url('images/star.png');
+      /* Use an image as a marker */
+      list-style-position: inside;
+      /* Position the markers inside the box */
 
-        }
-        table {
-            width: 80%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-             background-color: #f2f2f2;
-            text-transform: uppercase; /* Convert headings to uppercase */
-            letter-spacing: 0.1em; /* Add spacing to the letters */
-            font-size: 1.1em; /* Add font size to headings*/
-             border-top: 2px solid #333; /* Add a line above the headings */
-             border-bottom: 2px solid #333; /* Add a line below the headings */
+    }
 
-        }
-         table tr:nth-child(even) { /* Shade every other row*/
-             background-color: #e0e0e0;
-         }
-         input[type="text"],
-         input[type="email"]
-         {
-           padding: 10px; /* Add padding to the form controls */
-           border: 1px solid #ccc; /* Add a border to the form controls */
-         }
-    </style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      text-transform: uppercase;
+      /* Convert headings to uppercase */
+      letter-spacing: 0.1em;
+      /* Add spacing to the letters */
+      font-size: 1.1em;
+      /* Add font size to headings*/
+      border-top: 2px solid #333;
+      /* Add a line above the headings */
+      border-bottom: 2px solid #333;
+      /* Add a line below the headings */
+
+    }
+
+    table tr:nth-child(even) {
+      /* Shade every other row*/
+      background-color: #e0e0e0;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      padding: 10px;
+      /* Add padding to the form controls */
+      border: 1px solid #ccc;
+      /* Add a border to the form controls */
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Styling Lists, Tables, and Forms</h1>
+  <h1>Styling Lists, Tables, and Forms</h1>
 
-    <h2>Custom List</h2>
-    <ul class="custom-list">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
+  <h2>Custom List</h2>
+  <ul class="custom-list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
 
-    <h2>Styled Table</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Header 1</th>
-                <th>Header 2</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Data 1</td>
-                <td>Data 2</td>
-            </tr>
-            <tr>
-                <td>Data 3</td>
-                <td>Data 4</td>
-            </tr>
-        </tbody>
-    </table>
+  <h2>Styled Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+      <tr>
+        <td>Data 3</td>
+        <td>Data 4</td>
+      </tr>
+    </tbody>
+  </table>
 
-     <h2>Styled Form</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </form>
+  <h2>Styled Form</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </form>
 
 </body>
+
 </html>
