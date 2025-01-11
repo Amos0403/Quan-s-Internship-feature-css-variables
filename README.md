@@ -9,6 +9,11 @@ A beginner-friendly project demonstrating HTML structure and CSS styling fundame
 ## 🗂️ Project Structure
 This project contains HTML and CSS files that demonstrate the structure and styling of a basic web page.
 
+
+## Resources
+- [MDN Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 ## Files
 - `index.html`: The main HTML file that contains the structure of the web page.
 - `styles.css`: The CSS file that contains the styling rules for the web page.
@@ -29,3 +34,4 @@ The CSS file includes styles for:
 
 ## Author
 Quan
+
