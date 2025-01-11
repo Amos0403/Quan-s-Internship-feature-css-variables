@@ -1,37 +1,53 @@
-# HTML & CSS Learning Project 📚
+# 🌐 HTML & CSS Journey
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+A comprehensive branch dedicated to mastering the building blocks of the web—HTML and CSS.
 
-## 📖 About
-A beginner-friendly project demonstrating HTML structure and CSS styling fundamentals.
+## 🌟 Key Topics Covered
 
-## 🗂️ Project Structure
-This project contains HTML and CSS files that demonstrate the structure and styling of a basic web page.
+- **HTML**
+  - Semantic tags and accessibility
+  - Forms and validation
+  - Media elements (images, audio, video)
+  - SEO best practices
+  
+- **CSS**
+  - Responsive design with Flexbox and Grid
+  - Animations and transitions
+  - Advanced selectors and pseudo-elements
+  - CSS variables and preprocessors (e.g., SCSS)
 
+## 🎯 Learning Objectives
 
-## Resources
+1. Build semantic and accessible web pages.
+2. Create responsive and visually appealing layouts.
+3. Understand the principles of web design and usability.
+
+## 📚 Resources
+
 - [MDN Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [MDN Web Docs: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [CSS Tricks](https://css-tricks.com/)
+- [Flexbox Froggy](https://flexboxfroggy.com/) & [Grid Garden](https://cssgridgarden.com/)
 
-## Files
-- `index.html`: The main HTML file that contains the structure of the web page.
-- `styles.css`: The CSS file that contains the styling rules for the web page.
+## 🛠️ Projects
 
-## Getting Started
-To view the web page, open the `index.html` file in a web browser.
+1. **Portfolio Website**
+   - A responsive personal portfolio.
+2. **Landing Page**
+   - A product-focused landing page with animations.
 
-## Structure
-The HTML file includes the following sections:
-- A header with a title
-- A main section with a welcome message and an about me section
+## 📈 Progress Tracking
 
-## Styling
-The CSS file includes styles for:
-- The body
-- Headers (h1, h2)
-- Paragraphs
+| Topic                 | Status        | Notes                          |
+|-----------------------|---------------|--------------------------------|
+| Semantic HTML         | ✅ Completed | Learned accessibility tips     |
+| Flexbox               | ✅ Completed | Mastered responsive layouts    |
+| Grid Layout           | 🔄 In Progress | Working on multi-column layouts |
+| CSS Animations        | ⏳ Planned   | To explore keyframes           |
 
-## Author
-Quan
+## 📝 Key Learning Outcomes
+
+- Improved understanding of semantic HTML.
+- Developed responsive layouts using Flexbox and Grid.
+- Enhanced web pages with CSS animations and transitions.
 
