@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Discovery Page</title>
 </head>
+
 <body>
 
   <!-- Fluid Container -->
   <header>
-    <!-- Header Section -->
-    <span>Logo</span>
+    <a href="/">
+      <img src="logo.png" alt="Platform Logo">
+    </a>
     <button>Login</button>
   </header>
 
@@ -18,19 +21,45 @@
   <main>
     <!-- Hero Section -->
     <section>
-      <h1>Heading</h1>
-      <h2>Subheading</h2>
-      <input type="text" placeholder="Search">
+      <h1>Discover communities</h1>
+      <p>
+        or
+        <a href="/about">create your own</a>
+      </p>
+      <form>
+        <label for="search-input">Search</label>
+        <div>
+          <!-- Search Input Field -->
+          <input aria-label="Search for anything">
+
+          <!-- Search Icon -->
+          <button>
+            🔍
+          </button>
+        </div>
+      </form>
     </section>
 
     <!-- Control Section -->
     <section>
+      <div class="filter-card">
+        <h2>Filter Options</h2>
+        <div>
+          <h3>Categories</h3>
+          <ul>
+            <li>All Courses</li>
+            <li>Development</li>
+            <li>Design</li>
+            <li>Business</li>
+          </ul>
+        </div>
+      </div>
       <!-- Control-specific content goes here -->
     </section>
 
     <!-- List of Courses Section -->
     <section>
-      <article>
+      <div class="course-card">
         <img src="thumbnail.jpg" alt="Course Thumbnail">
         <h3>Course Title</h3>
         <figure>
@@ -40,9 +69,9 @@
         <p>Description</p>
         <aside>
           <span>Members: 100</span>
-          <span>Status: Paid/Unpaid</span>
+          <span>Status: Paid/Free</span>
         </aside>
-      </article>
+      </div>
       <!-- Additional course cards -->
     </section>
   </main>
@@ -58,4 +87,5 @@
   </footer>
 
 </body>
+
 </html>
