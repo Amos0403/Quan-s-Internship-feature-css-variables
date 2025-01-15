@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{Page Title}}</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="fluid-container">
+    <div class="header container" style="display: flex; justify-content: space-between;">
+      <a href="/">
+        <img src="logo.svg" width="100px" alt="Platform Logo">
+      </a>
+      <button>Login</button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>{{Hero Title}}</h1>
+      <p>
+        {{Hero Description}}
+        <a href="{{Hero Link}}">{{Hero Link Text}}</a>
+      </p>
+      <div class="search">
+        <form action="{{Search Action}}" method="get" class="search-bar">
+          <input type="text" placeholder="Search..." name="q">
+          <button type="submit">
+            <img src="search-icon.png" alt="Search Icon">
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-card">
+      <h2>{{Filter Title}}</h2>
+      <div>
+        <h3>{{Filter Subtitle}}</h3>
+        <ul>
+          {{Filter List Items}}
+        </ul>
+      </div>
+    </section>
+
+    <!-- Dynamic Content Section -->
+    <section class="content">
+      {{Dynamic Content}}
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <nav>
+      {{Footer Links}}
+    </nav>
+  </footer>
+</body>
+
+</html>
