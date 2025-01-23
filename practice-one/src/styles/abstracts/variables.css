@@ -15,6 +15,11 @@
   --font-size-large: 20px;
   --font-size-xl: 45px;
 
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
   /* Spacing */
   --spacing-small: 8px;
   --spacing-medium: 16px;
