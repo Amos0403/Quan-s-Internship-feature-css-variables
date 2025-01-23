@@ -1,0 +1,10 @@
+.primary-button {
+    width: 116px;
+    height: 48px;
+    padding: 11px 24px;
+    background: var(--primary-bg);
+    color: var(--secondary-text);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    border: 1px solid var(--border-color);
+  }
