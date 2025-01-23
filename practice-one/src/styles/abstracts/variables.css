@@ -1,0 +1,14 @@
+:root {
+  /* Colors */
+  --button-bg: #fff;
+  --button-text: #909090;
+  --button-border: #e4e4e4;
+  --button-hover-bg: #909090;
+  --button-hover-text: #fff;
+
+  /* Font Sizes */
+  --font-size-small: 14px;
+
+  /* Borders */
+  --border-radius-small: 8px;
+}
