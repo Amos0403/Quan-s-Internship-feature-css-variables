@@ -1,14 +1,25 @@
 :root {
   /* Colors */
-  --button-bg: #fff;
-  --button-text: #909090;
-  --button-border: #e4e4e4;
-  --button-hover-bg: #909090;
-  --button-hover-text: #fff;
+  --primary-background: #fff;
+  --primary-text: #202124;
+  --secondary-text: #909090;
+  --link-color: #2e6ef5;
+  --border-color: #e4e4e4;
+  --chip-hover-bg: #909090;
+  --chip-hover-text: #fff;
 
-  /* Font Sizes */
+  /* Typography */
+  --font-family: 'Roboto', Helvetica, Arial, sans-serif;
   --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-xl: 45px;
 
-  /* Borders */
-  --border-radius-small: 8px;
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+
+  /* Border Radius */
+  --border-radius: 8px;
 }
