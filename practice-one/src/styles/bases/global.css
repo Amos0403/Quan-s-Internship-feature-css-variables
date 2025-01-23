@@ -1,0 +1,15 @@
+/* Box model reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default body styles */
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  color: var(--text-color);
+  background-color: var(--main-bg);
+  line-height: 1.5;
+}
