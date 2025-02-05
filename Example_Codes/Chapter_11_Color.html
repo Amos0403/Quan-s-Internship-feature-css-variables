@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color in CSS</title>
+  <style>
+    body {
+      background-color: rgb(240, 240, 240);
+      /* RGB value */
+    }
+
+    h1 {
+      color: DarkCyan;
+      /* Color name */
+      background-color: #f0f0f0;
+    }
+
+    p.hex-color {
+      color: #ee3e80;
+      /* Hex code */
+    }
+
+    p.rgba-color {
+      color: rgba(0, 0, 255, 0.7);
+      /* RGBA color */
+      background-color: #ddd;
+      /* Shortened hex */
+    }
+
+    p.hsla-color {
+      color: hsla(120, 100%, 50%, 0.5);
+      /* HSLA color */
+      background-color: #eee;
+      /* Shortened hex */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Using Colors in CSS</h1>
+  <p class="hex-color">This text uses a hex code for color.</p>
+  <p class="rgba-color">This text uses a RGBA value, with transparency.</p>
+  <p class="hsla-color">This text uses a HSLA value, with transparency.</p>
+</body>
+
+</html>

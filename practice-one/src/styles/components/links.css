@@ -1,0 +1,17 @@
+.footer-link {
+  color: var(--gray);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.link {
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.secondary-link {
+  color: var(--gray);
+  font-size: 16px;
+  line-height: 1.5;
+}

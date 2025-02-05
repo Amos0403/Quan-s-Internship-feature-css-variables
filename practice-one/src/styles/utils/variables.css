@@ -1,0 +1,38 @@
+:root {
+  /* Colors Name */
+  --white: #fff;
+  --black: #202124;
+  --gray: #909090;
+  --blue: #2e6ef5;
+  --light-gray: #e4e4e4;
+  --low-white: #f8f7f5;
+
+  /* Colors */
+  --primary-bg: var(--white);
+  --primary-text: var(--black);
+  --secondary-text: var(--gray);
+  --link-color: var(--blue);
+  --border-color: var(--light-gray);
+  --chip-hover-bg: var(--gray);
+  --chip-hover-text: var(--white);
+
+  /* Typography */
+  --font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-xl: 45px;
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+
+  /* Border Radius */
+  --border-radius: 8px;
+}

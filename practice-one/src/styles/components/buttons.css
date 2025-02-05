@@ -1,0 +1,37 @@
+.secondary-button {
+    width: 116px;
+    height: 48px;
+    padding: 11px 24px;
+    background: var(--white);
+    color: var(--gray);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    border: 1px solid var(--light-gray);
+  }
+
+.chip-button{
+  width: fit-content;
+  height: 40px;
+  padding: 0px 14px;
+  background-color: var(--white);
+  color: var(--gray);
+  font-size: 14px;
+  border-color: var(--light-gray);
+  border: 1px solid;
+}
+
+.chip-button:hover{
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+.icon-button {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border-radius: 50%;
+  color: var(--gray);
+  background: var(--white);
+  border: 1px solid var(--light-gray);
+}  
+  

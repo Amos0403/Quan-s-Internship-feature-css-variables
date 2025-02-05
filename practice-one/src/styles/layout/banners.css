@@ -1,0 +1,7 @@
+/* Banner */
+.banner {
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  padding: 40px 50px;
+}

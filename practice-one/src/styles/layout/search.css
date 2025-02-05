@@ -1,0 +1,20 @@
+/* Search */
+.search-bar {
+  min-height: 50px;
+  background-color: rgb(57, 56, 59);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.controls {
+  min-height: 50px;
+  background-color: rgb(78, 33, 191);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.control__settings {
+  margin-left: 65px;
+}

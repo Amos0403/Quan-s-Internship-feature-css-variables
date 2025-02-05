@@ -1,0 +1,10 @@
+/* Layout Containers */
+.fluid-container {
+  background-color: rgb(248, 247, 245); 
+}
+
+.container {
+  width: 1085px;
+  background-color: #ccc;
+  margin: 0 auto;
+}

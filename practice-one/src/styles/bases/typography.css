@@ -1,0 +1,18 @@
+h1.primary-heading {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold); /* Using variable for font-weight */
+    color: var(--primary-text);
+  }
+  
+h2.sub-heading {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-medium); /* Using medium weight */
+    color: var(--primary-text);
+  }
+  
+p {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-normal); /* Default normal weight */
+    color: var(--secondary-text);
+  }
+  

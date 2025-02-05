@@ -1,0 +1,11 @@
+.primary-heading {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  color: var(--black);
+}
+
+.sub-heading {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-medium);
+  color: var(--black);
+}

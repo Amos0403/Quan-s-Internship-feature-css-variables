@@ -1,0 +1,11 @@
+/* Footer */
+.footer {
+  padding: 10px 320px;  
+  background-color: #9e1775;
+}
+
+.footer-links {
+  display: flex;
+  gap: 10px;
+  margin-left: 440px;
+}
